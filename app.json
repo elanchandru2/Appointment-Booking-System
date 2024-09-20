@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "MedicalApp",
-    "slug": "MedicalApp",
+    "slug": "medico",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.chandru53691.MedicalApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e6e18f96-a935-4e4b-aba5-b1092697b252"
+      }
+    },
+    "owner": "chandru53691"
   }
 }
